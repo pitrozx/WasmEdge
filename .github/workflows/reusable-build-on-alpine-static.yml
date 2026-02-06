@@ -1,8 +1,6 @@
 name: Build on Alpine (static lib)
 
 on:
-
-
   workflow_call:
     inputs:
       version:
@@ -21,8 +19,6 @@ on:
         required: true
       release:
         type: boolean
-
-    
 
 permissions:
       contents: read
