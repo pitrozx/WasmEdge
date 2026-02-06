@@ -1,6 +1,8 @@
 name: Build on Alpine (static lib)
 
 on:
+
+
   workflow_call:
     inputs:
       version:
@@ -8,6 +10,19 @@ on:
         required: true
       release:
         type: boolean
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: "Log level"
+        required: true
+        default: "info"
+      version:
+        type: string
+        required: true
+      release:
+        type: boolean
+
+    
 
 permissions:
       contents: read
