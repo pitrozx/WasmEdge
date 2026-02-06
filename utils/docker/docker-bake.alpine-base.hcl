@@ -8,5 +8,5 @@ target "alpine-base" {
   # Build for both major architectures at once
   platforms  = ["linux/amd64", "linux/arm64"]
   # Tag it clearly so we can use it later
-  tags       = ["wasmedge/wasmedge:alpine-base-3.23"]
+  tags       = ["wasmedge/wasmedge:alpine-base-3.22"]
 }

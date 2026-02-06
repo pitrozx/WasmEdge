@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.5-labs
 
-ARG ALPINE_VERSION=3.23
+ARG ALPINE_VERSION=3.22
 
 # ----------------------------------------------------
 # STAGE 1: Builder
