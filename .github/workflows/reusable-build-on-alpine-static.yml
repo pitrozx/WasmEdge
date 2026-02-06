@@ -8,7 +8,8 @@ on:
         required: true
       release:
         type: boolean
-   workflow_dispatch:
+        
+  workflow_dispatch:
     inputs:
       logLevel:
         description: "Log level"
